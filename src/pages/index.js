@@ -1,5 +1,13 @@
 import React from "react"
+import Layout from "../components/layout/layout"
+import "../styles/styles.scss"
 
-export default function Home() {
-  return <div>Hello world!</div>
+const Index = () => {
+  return (
+    <Layout>
+      Homepage
+    </Layout>
+  )
 }
+
+export default Index
