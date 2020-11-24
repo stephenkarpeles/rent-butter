@@ -6,5 +6,25 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: ["gatsby-plugin-sass"],
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        data: `@import "${__dirname}/src/styles/styles.scss";`,
+      }
+    },
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Nunito",
+              variants: ["300", "400", "700", "900"],
+            },
+          ],
+        },
+      },
+    },
+  ],
 }

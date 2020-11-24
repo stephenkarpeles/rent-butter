@@ -1,0 +1,12 @@
+.header {
+  &__container {
+    width: $container-width;
+    margin: 0 auto;
+  }
+
+  &__logo {
+    img {
+      width: 290px;
+    }
+  }
+}
