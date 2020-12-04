@@ -1,5 +1,6 @@
 // Colors
 $color-1: #0597D5;
+$color-1-dark: #098DC6;
 $color-2: #DE674A;
 $color-2-dark: #D45537;
 $text-color-main: #444;
@@ -96,7 +97,8 @@ body {
 }
 
 img,
-video {
+video,
+iframe {
   max-width: 100%;
   display: block;
 }
@@ -122,6 +124,18 @@ a {
 
     &:hover {
       background: $color-2-dark;
+    }
+  }
+
+  &--2 {
+    background: $color-1;
+    color: white;
+    padding: 8px 16px;
+    font-weight: 900;
+    font-size: $font-size-h5;
+
+    &:hover {
+      background: $color-1-dark;
     }
   }
 }
