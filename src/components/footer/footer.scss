@@ -1,0 +1,9 @@
+.footer {
+  padding: 10px 0;
+
+  &__container {
+    width: $container-width;
+    max-width: $container-max-width;
+    margin: 0 auto;
+  }
+}

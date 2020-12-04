@@ -1,0 +1,39 @@
+.hero {
+  background-image:     
+    url('../../images/rulers.svg'),
+    linear-gradient(to top right, #0076A8, #00ADF6);
+  color: white;
+  padding: 5rem 0 8.5rem;
+  border-radius: 0 0 50px 0;
+  position: relative;
+  width: 100%;
+
+  background-position:    
+    bottom -270px center,
+    center center;
+
+  background-repeat: 
+    repeat-x,
+    no-repeat;
+
+  h1 {
+    color: white;
+  }
+
+  p {
+    font-size: $font-size-h4;
+  }
+
+  .container {
+    position: relative;
+    z-index: 20;
+  }
+
+  // &:after {
+  //   content: url('../../images/rulers.svg');
+  //   width: 100%;
+  //   display: block;
+  //   position: absolute;
+  //   bottom: -275px;
+  // }
+}
