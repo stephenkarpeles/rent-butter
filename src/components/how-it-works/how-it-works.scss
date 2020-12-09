@@ -1,0 +1,60 @@
+.how-it-works {
+  background: $background-gray;
+  padding: 5rem 0;
+  position: relative;
+  z-index: 100;
+  border-radius: 0 50px 0 0;
+
+  h2 {
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+}
+
+.how-card {
+  text-align: center;
+
+  &__image {
+    margin-bottom: 2rem;
+    height: 220px;
+    display: flex;
+  }
+
+  img {
+    max-height: 220px;
+    max-width: 235px;
+    margin: auto;
+  }
+
+  &__number {    
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    margin-bottom: 2rem;    
+
+    span {
+      color: white;
+      font-size: 3.75rem;
+      font-weight: 900;
+      width: 90px;
+      height: 90px;
+      line-height: 90px;
+      background-image: linear-gradient(to top right, #DE674A, #FF7554);
+      border-radius: 50%;
+    }
+  }
+
+  &__title {
+    h4 {
+      padding-bottom: .75rem;
+    }
+  }
+
+  &__text {
+    padding: 0 1.5rem;
+
+    p {
+      font-size: 1.25rem;
+    }
+  }
+}
