@@ -1,0 +1,167 @@
+.credit-score-block {
+  background-image:     
+    url('../../images/rulers-vertical.svg'),
+    linear-gradient(84.1deg, #DE674A 0, #FF7554 100%);
+  background-repeat: 
+    repeat-y,
+    no-repeat;
+  background-position: 
+    left center,
+    center center;
+  color: white;
+  padding: 6.5rem 0;
+  border-radius: 0 0 50px 0;
+  
+  h2 {
+    font-size: 3.75rem;
+    color: white;
+    padding-bottom: 3rem;
+  }
+
+  h3 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: italic;
+    padding-bottom: 3rem;
+  }
+
+  &__btn-block {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      font-size: 1.563rem;
+      font-weight: 700;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      line-height: 1.2;
+    }
+  }
+
+  &__btn-block-text {
+    width: calc(100% - 300px);
+  }
+
+  &__btn-block-link {
+    width: 280px;
+  }
+}
+
+// Keyframes
+@keyframes float-1 {
+  0%   { transform: translate(0px);}
+  25%  { transform: translate(-2px, 2px); }
+  50%  { transform: translate(-4px, 0px); }
+  75%  { transform: translate(-2px, -2px); }
+  100%  { transform: translate(0px); }
+}
+
+@keyframes float-2 {
+  0%   { transform: translate(0px);}
+  25%  { transform: translate(2px, -2px); }
+  50%  { transform: translate(2px, 0px); }
+  75%  { transform: translate(2px, 2px); }
+  100%  { transform: translate(0px); }
+}
+
+@keyframes float-3 {
+  0%   { transform: translate(0px);}
+  25%  { transform: translate(3px, -3px); }
+  50%  { transform: translate(3px, 0px); }
+  75%  { transform: translate(3px, 3px); }
+  100%  { transform: translate(0px); }
+}
+
+.credit-circles-wrap {
+  position: relative;
+}
+
+.credit-circle {
+  position: absolute;
+  background: white;
+  color: #D55537;
+  font-weight: 900;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  
+  &--1 {
+    top: 0;
+    left: 0;
+    animation: float-1 4s linear infinite;
+  }
+  
+  &--2 {
+    top: 80px;
+    left: 90px;
+    animation: float-2 3s linear infinite;
+  }
+  
+  &--3 {
+    top: 25px;
+    left: 200px;
+    animation: float-1 8s linear infinite;
+  }
+  
+  &--4 {
+    top: 15px;
+    left: 325px;
+    animation: float-3 12s linear infinite;
+  }
+  
+  &--5 {
+    top: 5px;
+    left: 440px;
+    animation: float-1 4s linear infinite;
+  }
+  
+  &--6 {
+    top: 160px;
+    left: 180px;
+    animation: float-1 3s linear infinite;
+  }
+  
+  &--7 {
+    top: 135px;
+    left: 305px;
+    animation: float-2 5s linear infinite;
+  }
+  
+  &--8 {
+    top: 115px;
+    left: 420px;
+    animation: float-3 5s linear infinite;
+  }
+  
+  &--9 {
+    top: 250px;
+    left: 120px;
+    animation: float-2 5s linear infinite;
+  }
+  
+  &--10 {
+    top: 245px;
+    left: 345px;
+    animation: float-1 4s linear infinite;
+  }
+  
+  &--11 {
+    top: 220px;
+    left: 460px;
+    animation: float-2 5s linear infinite;
+  }
+  
+  &--12 {
+    top: 330px;
+    left: 440px;
+    animation: float-3 4s linear infinite;
+  }
+}
+
+
