@@ -6,6 +6,7 @@ import Values from "../components/values/values"
 import HowItWorks from "../components/how-it-works/how-it-works"
 import Clients from "../components/clients/clients"
 import CreditScore from "../components/credit-score/credit-score"
+import CompareTable from "../components/compare-table/compare-table"
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <HowItWorks />
       <Clients />
       <CreditScore />
+      <CompareTable />
     </Layout>
   )
 }

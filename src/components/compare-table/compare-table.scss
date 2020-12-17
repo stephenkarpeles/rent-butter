@@ -1,0 +1,102 @@
+.compare {
+  padding: 7rem 0;
+
+  h2 {
+    font-weight: 700;
+    text-align: center;
+    
+    span {
+      font-weight: 900;
+    }
+  }
+
+  &__intro {
+    padding-top: .5rem;
+
+    p {
+      font-size: $font-size-h4;
+      text-align: center;
+      max-width: 60rem;
+      width: 100%;
+      margin: 0 auto;
+      font-weight: 500;
+    }
+  }
+}
+
+.compare-table {
+  padding-top: 3rem;
+
+  &__headings {
+    display: flex;
+    font-size: 1.75rem;
+    color: white;
+    background: $color-1;
+    font-weight: 900;
+
+    .col {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 1.5rem 2rem;
+
+      &--1 {
+        text-align: left;
+        width: 30rem;
+      }
+
+      &--2,
+      &--3 {
+        text-align: center;
+        flex: 1;
+      }
+    }
+  }
+
+  &__row {
+    display: flex;
+
+    &:nth-child(2n) {
+      background: #F9F9FA;
+    }
+  }
+
+  &__values {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 30rem);
+
+    .col {
+      display: flex;
+      justify-content: center;
+      padding: 1.5rem 2rem;
+      text-align: center;
+      font-size: 1.188rem;
+      font-weight: 700;
+
+      &--1,
+      &--2 {
+        text-align: center;
+        flex: 1;
+      }
+    }
+  }
+
+  &__label {
+    width: 30rem;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  &__dot {
+    background-image: linear-gradient(84.1deg, #DE674A 0, #FF7554 100%);
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+}
