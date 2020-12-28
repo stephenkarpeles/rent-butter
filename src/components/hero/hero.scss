@@ -48,4 +48,28 @@
       }
     }
   }
+
+  @include mq(desktop, 'max-width') {
+    .row {
+      .col-7-12,
+      .col-5-12 {
+        width: 100%;
+      }
+    }
+
+    .video-wrapper {
+      padding-top: 4rem;
+    }
+
+    iframe {
+      margin: 0 auto;
+    }
+
+    &__content {
+      text-align: center;
+      padding-right: 0;
+    }
+  }
+
+  
 }
