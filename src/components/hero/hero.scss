@@ -25,6 +25,13 @@
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
   }
 
+  &__video-note {
+    padding-top: 1rem;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.25rem;
+  }
+
   &__content {
     padding-right: 3rem;
 

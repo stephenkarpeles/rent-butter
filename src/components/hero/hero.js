@@ -20,6 +20,9 @@ const Hero = () => {
               <div className="video-wrapper">
                 <iframe title="Demo Video" width="560" height="315" src="https://www.youtube.com/embed/hKKp0ruwN_Q?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
+              <div class="hero__video-note">
+                <span>See how it works</span>
+              </div> 
             </div>
           </div>
         </div>
