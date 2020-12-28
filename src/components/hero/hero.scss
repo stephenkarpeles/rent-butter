@@ -43,6 +43,10 @@
       font-size: $font-size-h4;
       padding-bottom: 2.5rem;
 
+      @include mq(ipad, 'max-width') {
+        font-size: $font-size-h5;
+      }
+
       &:last-child {
         padding-bottom: 0;
       }

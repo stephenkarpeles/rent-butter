@@ -5,6 +5,15 @@
     text-align: center;
     padding-bottom: 4rem;
   }
+
+  @include mq(desktop, 'max-width') {
+    .row {
+      .col-1-3 {
+        width: 100%;
+        margin-bottom: 3rem;
+      }
+    }
+  }
 }
 
 .value-card {
@@ -20,6 +29,10 @@
 
   &__image {
     width: 120px;
+
+    @include mq(ipad, 'max-width') {
+      width: 100px;
+    }
 
     img {
       width: 100%;
