@@ -8,7 +8,7 @@ const CreditScore = () => {
     <section className="credit-score-block">      
       <div className="container">
         <div className="row">
-          <div className="col col-7-12">
+          <div className="col col-7-12 credit-score-block__text-col">
             <Fade>
               <div class="credit-score-block__text">
                 <h2>It's easy to approve renters with a 700+ credit score.</h2>

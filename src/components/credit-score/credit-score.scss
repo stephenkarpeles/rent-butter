@@ -26,8 +26,9 @@
     padding-bottom: 3rem;
   }
 
-  &__text {
+  &__text-col {
     padding-left: 1rem;
+    text-align: left;
 
     @include mq(x-large, 'max-width') {
       padding-left: 2rem;
@@ -35,6 +36,10 @@
 
     @include mq(large, 'max-width') {
       padding-left: 3rem;
+    }
+
+    @include mq(tablet, 'max-width') {
+      text-align: right;
     }
   }
 
