@@ -8,10 +8,20 @@
 
   &__row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   &__image {
     padding: 0 2rem;
+    margin-bottom: 3rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    img {
+      max-width: 180px;
+    }
   }
 }

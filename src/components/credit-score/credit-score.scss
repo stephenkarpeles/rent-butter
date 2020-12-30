@@ -26,9 +26,25 @@
     padding-bottom: 3rem;
   }
 
+  &__text {
+    padding-left: 1rem;
+
+    @include mq(x-large, 'max-width') {
+      padding-left: 2rem;
+    }
+
+    @include mq(large, 'max-width') {
+      padding-left: 3rem;
+    }
+  }
+
   &__btn-block {
     display: flex;
     justify-content: space-between;
+
+    @include mq(large, 'max-width') {
+      flex-direction: column;
+    }
 
     p {
       font-size: 1.563rem;
@@ -41,10 +57,53 @@
 
   &__btn-block-text {
     width: calc(100% - 300px);
+
+    @include mq(large, 'max-width') {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
   }
 
   &__btn-block-link {
     width: 280px;
+
+    @include mq(large, 'max-width') {
+      width: 100%;
+    }
+  }
+
+  @include mq(desktop, 'max-width') {
+    background-position: 
+    -10px center,
+    center center;
+
+    h2 {
+      font-size: calc(.9 * 3.75rem);
+    }
+
+    h3 {
+      font-size: calc(.9 * 2.5rem);
+    }
+
+    .row {
+      .col-7-12 {
+        width: 100%;
+      }
+    }
+  }
+
+  @include mq(ipad, 'max-width') {
+    background-position: 
+    -15px center,
+    center center;
+
+    h2 {
+      font-size: calc(.7 * 3.75rem);
+    }
+
+    h3 {
+      font-size: calc(.7 * 2.5rem);
+    }
   }
 }
 
@@ -75,6 +134,10 @@
 
 .credit-circles-wrap {
   position: relative;
+
+  @include mq(desktop, 'max-width') {
+    display: none;
+  }
 }
 
 .credit-circle {
