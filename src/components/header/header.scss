@@ -16,10 +16,10 @@
 
   &__logo {
     img {
-      width: 290px;
+      width: 210px;
 
       @include mq(tablet, 'max-width') {
-        width: 190px;
+        width: 140px;
       }
     }
   }

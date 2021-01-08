@@ -6,7 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  // pathPrefix: `/staging/rent-butter`,
+  //pathPrefix: `/staging/rent-butter`,
   plugins: [
     {
       resolve: 'gatsby-plugin-sass',

@@ -1,7 +1,7 @@
 import React from "react"
 //import { Link } from "gatsby"
 import "./header.scss"
-import logo from "../../images/rentbutter-logo.jpeg" 
+import logo from "../../images/rentbutter-logo.jpg" 
 
 const Header = () => {  
   return (
