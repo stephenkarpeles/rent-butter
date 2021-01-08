@@ -11,9 +11,10 @@ const Hero = () => {
           <div className="row">
             <div className="col col-7-12">
               <div className="hero__content">
-                <h1>Advanced Tenant Screening for Landlords</h1>
-                <p>Traditional credit scores won’t tell you if your tenants will pay their rent. Rent Butter's fully-automated software provides full insight into a tenant's entire financial history, so you can screen with confidence.</p>
-                <a href="/" className="btn btn--1">Schedule a Demo</a>
+                <h1 className="hero__heading">Advanced Tenant Screening</h1>
+                <p className="hero__subheading">Reduce rent defaults &amp; evictions by up to 20%.</p>
+                <p>Our solution combines bank transaction history &amp; credit behavior analytics into a simple, predictive tenant performance report.</p>
+                <a href="/" className="btn btn--3">Schedule a Demo</a>
               </div>
             </div>
             <div className="col col-5-12">

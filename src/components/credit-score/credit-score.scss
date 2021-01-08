@@ -1,29 +1,28 @@
 .credit-score-block {
-  background-image:     
-    url('../../images/rulers-vertical.svg'),
-    linear-gradient(84.1deg, #DE674A 0, #FF7554 100%);
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background: white;
+  // background-image:     
+  //   url('../../images/rulers-vertical.svg'),
+  //   linear-gradient(84.1deg, #DE674A 0, #FF7554 100%);
   background-repeat: 
     repeat-y,
     no-repeat;
   background-position: 
     left center,
     center center;
-  color: white;
-  padding: 6.5rem 0;
+  padding: 7rem 0;
   border-radius: 0 0 50px 0;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .1);
   
   h2 {
-    font-size: 3.75rem;
-    color: white;
-    padding-bottom: 3rem;
+    padding-bottom: 2.5rem;
   }
 
   h3 {
-    color: white;
-    font-size: 2.5rem;
     font-weight: 700;
     font-style: italic;
-    padding-bottom: 3rem;
+    padding-bottom: 2.5rem;
   }
 
   &__text-col {
@@ -46,6 +45,7 @@
   &__btn-block {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 
     @include mq(large, 'max-width') {
       flex-direction: column;
@@ -61,27 +61,15 @@
   }
 
   &__btn-block-text {
-    width: calc(100% - 300px);
-
-    @include mq(large, 'max-width') {
-      width: 100%;
-      margin-bottom: 2rem;
-    }
+    width: 100%;
+    margin-bottom: 2.5rem;
   }
 
   &__btn-block-link {
-    width: 280px;
-
-    @include mq(large, 'max-width') {
-      width: 100%;
-    }
+    width: 100%;
   }
 
   @include mq(desktop, 'max-width') {
-    background-position: 
-    -10px center,
-    center center;
-
     h2 {
       font-size: calc(.9 * 3.75rem);
     }
@@ -91,7 +79,7 @@
     }
 
     .row {
-      .col-7-12 {
+      .col-1-2 {
         width: 100%;
       }
     }
@@ -148,7 +136,7 @@
 .credit-circle {
   position: absolute;
   background: white;
-  color: #D55537;
+  color: $color-1;
   font-weight: 900;
   width: 80px;
   height: 80px;

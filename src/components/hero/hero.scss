@@ -1,18 +1,19 @@
 .hero {
   background-image:     
-    url('../../images/rulers.svg'),
+    //url('../../images/rulers.svg'),
     linear-gradient(to top right, #0076A8, #00ADF6);
   color: white;
-  padding: 5rem 0 8.5rem;
+  padding: 6rem 0 6.25rem;
   border-radius: 0 0 50px 0;
   position: relative;
   width: 100%;
   background-position:    
-    bottom -270px center,
+    //bottom -270px center,
     center center;
   background-repeat: 
-    repeat-x,
+    //repeat-x,
     no-repeat;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .3);
 
   .container {
     position: relative;
@@ -37,11 +38,18 @@
 
     h1 {
       color: white;
+      padding-bottom: .75rem;
+    }
+
+    p.hero__subheading {
+      font-weight: 700;
+      padding-bottom: 1.5rem;
     }
 
     p {
       font-size: $font-size-h4;
       padding-bottom: 2.5rem;
+      
 
       @include mq(ipad, 'max-width') {
         font-size: $font-size-h5;

@@ -158,6 +158,21 @@ a {
       color: $color-2;
     }
   }
+
+  &--4 {
+    background: $color-1;
+    color: white;
+    padding: 8px 16px;
+    font-weight: 900;
+    font-size: $font-size-h5;
+    border: 3px solid $color-1;
+
+    &:hover {
+      background: $color-1-dark;
+      color: white;
+      border: 3px solid $color-1-dark;
+    }
+  }
 }
 
 // Layout 

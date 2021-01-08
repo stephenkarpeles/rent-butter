@@ -12,10 +12,10 @@ const Header = () => {
         </div>
         <nav className="header__nav">
           <ul>
-            <li><a href="/">How it Works</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Other Link</a></li>
-            <li><a href="/" className="btn btn--2">Get Started</a></li>
+            <li><a href="/">Calculate Savings</a></li>
+            <li><a href="/">Compare</a></li>
+            <li><a href="/">Login</a></li>
+            <li><a href="/" className="btn btn--2">Schedule a Demo</a></li>
           </ul>
         </nav>
       </div>

@@ -1,5 +1,5 @@
 .clients {
-  padding: 6rem 0 10rem;
+  padding: 6rem 0 7rem;
 
   h2 {
     text-align: center;
@@ -13,15 +13,14 @@
   }
 
   &__image {
-    padding: 0 2rem;
+    padding: 0 4rem;
     margin-bottom: 3rem;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
+    display: flex;
 
     img {
-      max-width: 180px;
+      max-height: 110px;
+      max-width: 250px;
+      margin: auto;
     }
   }
 }
