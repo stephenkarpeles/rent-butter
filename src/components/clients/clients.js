@@ -17,10 +17,10 @@ const Clients = () => {
         <Fade bottom cascade>
           <div className="clients__row">
             <div className="clients__image">
-              <img src={clientLogo1} alt="Client" />
+              <img src={clientLogo2} alt="Client" />
             </div>
             <div className="clients__image">
-              <img src={clientLogo2} alt="Client" />
+              <img src={clientLogo1} alt="Client" />
             </div>
             <div className="clients__image">
               <img src={clientLogo3} alt="Client" />

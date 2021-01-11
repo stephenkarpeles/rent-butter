@@ -1,10 +1,48 @@
 .footer {
-  padding: 80px 0;
+  padding: 2.5rem 0;
   background: $color-1;
 
   &__container {
     width: $container-width;
     max-width: $container-max-width;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    @include mq(tablet, 'max-width') {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  &__logo {
+    img {
+      width: 200px;
+
+      @include mq(tablet, 'max-width') {
+        margin: 0 auto 2rem;
+      }
+    }
+  }
+
+  &__col-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__copyright {
+    color: white;
+    font-size: .9rem;
+
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
