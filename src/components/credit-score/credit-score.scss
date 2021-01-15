@@ -21,9 +21,8 @@ $container-max-width: 1240px;
 
   &:before {
     width: $container-width;
-    max-width: 800px;
-    height: 6px;
-    border-radius: 6px;
+    max-width: $container-max-width;
+    height: 1px;
     background: #ddd;
     position: absolute;
     top: 0rem;
@@ -36,9 +35,8 @@ $container-max-width: 1240px;
 
   &:after {
     width: $container-width;
-    max-width: 800px;
-    height: 6px;
-    border-radius: 6px;
+    max-width: $container-max-width;
+    height: 1px;
     background: #ddd;
     position: absolute;
     bottom: 0rem;
